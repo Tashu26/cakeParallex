@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+#one{
+    position: absolute;
+    right: 50%;
+    left: 70%;
+    top: 11%;
+}
+#two{
+    position: absolute;
+    right: 50%;
+    left: 25%;
+    top: 11%;
+}
+ .parallax {
+
+    /* Set a specific height */
+    min-height: 780px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+
+.txt{
+    background-color: rgba(231, 17, 60, 0.596);
+    width: 60%;
+    color: blanchedalmond;
+padding: 2%;
+border-radius: 20px;
+position: absolute;
+margin-left: 8%;
+margin-top: 2%;
+box-shadow: 0 5px 8px 15px rgba(48, 58, 209, 0.418);
+}
+
+    h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    h3{
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;
+    }
+    strong{
+        font-family: 'Dancing Script', cursive;
+        font-size: 42px;
+        font-weight: 600;
+    }
+    
+    #heading
+    {
+    position:sticky;
+    top:0;
+    left:0;
+    text-align:center;
+    color:white;
+    background-color:rgb(66, 66, 66);
+    margin:0;
+    z-index: 10;
+   } 
+
+   #step1{
+background-image: url(https://food-images.files.bbci.co.uk/food/recipes/easy_chocolate_cake_31070_16x9.jpg);
+   }
+   #step2{
+    background-image: url(https://www.dessarts.com/wp-content/uploads/2018/04/How-To-Grease-a-Pan_720px_landscape.jpg); 
+}
+#step3{
+    background-image: url(https://images.unsplash.com/photo-1591274603033-b63d98dd3b2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80); 
+}
+#step4{
+    background-image: url(https://afullliving.com/wp-content/uploads/2018/08/Keto-Mocha-Brownies-5.jpg);  
+}
+#step5{
+    background-image: url(https://images.unsplash.com/photo-1599375032769-86d603b8d00c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); 
+}
+#step6{
+    background-image: url(https://thecountrybasket.com/wp-content/uploads/2015/03/Making-Norwegian-pancake-batter-adding-the-eggs.jpg);  
+}
+#step7{
+    background-image: url(https://images.unsplash.com/photo-1590080875852-ba44f83ff2db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80); 
+}
+#step8{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/32907196/thumb/11.jpg);
+}
+#step9{
+    background-image: url(https://livforcake.com/wp-content/uploads/2020/04/how-to-bake-flat-cakes-5.jpg);   
+}
+#step10{
+    background-image: url(https://www.sainsburysmagazine.co.uk/uploads/media/2400x1800/08/4028-chocolate-birthday-cake-1120.jpg?v=1-0);   
+}
+
+p{
+    font-family: 'Itim', cursive;
+    font-size: 24px;
+}
